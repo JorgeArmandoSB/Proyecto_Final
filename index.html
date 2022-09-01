@@ -8,24 +8,32 @@
     <link rel="stylesheet" href="./css/style.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/js/all.min.js" integrity="sha512-8pHNiqTlsrRjVD4A/3va++W1sMbUHwWxxRPWNyVlql3T+Hgfd81Qc6FC5WMXDC+tSauxxzp1tgiAvSKFu1qIlA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
     <title>Portafolio de diseño y desarrollo web</title>
 </head>
 <body>
+         <!-- flecha de subir al inicio -->
+
+    <div class="scroll-up-btn">
+        <i class="fa-solid fa-angle-up"></i>
+    </div>
+
     <!-- menu de navegacion -->
     <nav class="navbar">
         <div class="max-width">
             <div class="logo"><a href="#">Portafo<span>lio.</span></a></div>
             <ul class="menu">
-                <li><a href="#">Inicio</a></li>
-                <li><a href="#">Sobre mi</a></li>
-                <li><a href="#">Servicios</a></li>
-                <li><a href="#">Tecnologías</a></li>
-                <li><a href="#">Contacto</a></li>
+                <li><a href="#home" class="menu-btn">Inicio</a></li>
+                <li><a href="#about" class="menu-btn">Sobre mi</a></li>
+                <li><a href="#services" class="menu-btn">Servicios</a></li>
+                <li><a href="#skills" class="menu-btn">Tecnologías</a></li>
+                <li><a href="#teams" class="menu-btn">Grupo</a></li>
+                <li><a href="#contact" class="menu-btn">Contacto</a></li>
             </ul>
-            <div class="menu-btn">
+            <div class="menu-btn close">
             </div>
         </div>
     </nav>
@@ -37,7 +45,7 @@
             <div class="home-content">
                 <div class="text-1">¡Hola!, mi nombre es</div>
                 <div class="text-2">Jorge[Silva]</div>
-                <div class="text-3">Y soy un <span>desarrollador web</span></div>
+                <div class="text-3">Y soy un <span class="typing"></span></div>
                 <a href="#">trabaja conmigo</a>
             </div>
         </div>
@@ -55,7 +63,7 @@
                 </div>
 
                 <div class="column right">
-                    <div class="text">Soy Jorge, un <span>Desarrollador web</span></div>
+                    <div class="text">Soy Jorge, un <span class="typing-2"></span></div>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto ad inventore facilis similique deserunt dolorem natus perferendis unde. Quidem quae optio eligendi ad ut similique cumque deserunt consectetur consequatur, nobis doloremque repellat voluptatum repellendus placeat ab. Qui eaque cupiditate nemo suscipit fugit explicabo dolorem in, amet, et assumenda iusto dolor nulla cumque perferendis aspernatur officiis consequatur facilis ipsum mollitia possimus!</p>
                     
                     <a href="#">Descargar CV</a>
@@ -176,7 +184,7 @@
                 <div class="card">
                    <div class="box">
                     <img src="./img/profile-1.jpeg" alt="">
-                    <div class="text">Someone name</div>
+                    <div class="text">Jorge A. Silva</div>
                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
                    </div>
                 </div>
@@ -227,7 +235,7 @@
                             <i class="fa-solid fa-user-group"></i>
                             <div class="info">
                                 <div class="head">Name:</div>
-                                <div class="sub-title">Jorge A. </div>
+                                <div class="sub-title">Jorge A. Silva </div>
                             </div>
                         </div>
                         <div class="row">
@@ -275,9 +283,9 @@
             <!-- seccion de footer -->
 
     <footer>
-        
+        <span>desarrollado por<a href="#about">Jorge Silva</a> | <span class="fa-solid fa-pen-nib"></span>  Diseñador grafico y desarrollador web</span>
     </footer>
-
+   
    <script src="script.js"></script>
 </body>
 </html>

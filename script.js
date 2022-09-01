@@ -2,17 +2,43 @@ $(document).ready(function () {
     $(window).scroll(function () {
         if (this.scrollY > 20) {
             $('.navbar').addClass("sticky");
-        } else {
+        }else{
             $('.navbar').removeClass("sticky");
+        }
+        if(this.scrollY > 500){
+            $('.scroll-up-btn').addClass("show");
+        }else{
+            $('.scroll-up-btn').removeClass("show"); 
         }
     });
 
+    // slide-up script flecha volver al menu inicio
+    $('.scroll-up-btn').click(function(){
+        $('html').animate({scrollTop: 0});
+    });
+    
     // toggle menu/navbar script
     let movil = "fas fa-bars", cerra = "fa-solid fa-xmark";
-    $('.menu-btn').html(`<i class="${movil}"></i>`);
+    $('.close').html(`<i class="${movil}"></i>`);
     $('.menu-btn').click(function () {
         $('.navbar .menu').toggleClass("active");
-        $('.menu-btn').html(`<i class="${($(".navbar .menu").hasClass("active")) ? cerra : movil}"></i>`);
+        $('.close').html(`<i class="${($(".navbar .menu").hasClass("active")) ? cerra : movil}"></i>`);
+    });
+
+    // 
+    
+    var typed = new Typed(".typing-2", {
+        strings: ["Desarrollador web", "Diseñador gráfico" , "Motion graphics" , "Freelancer",],
+        typeSpeed: 100,
+        backSpeed: 60,
+        loop: true
+    });
+
+    var typed = new Typed(".typing", {
+        strings: ["Desarrollador web", "Diseñador gráfico" , "Motion graphics" , "Freelancer",],
+        typeSpeed: 100,
+        backSpeed: 60,
+        loop: true
     });
 
     // owl carousel script

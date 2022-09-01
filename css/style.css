@@ -18,6 +18,10 @@
     text-decoration: none;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 .max-width{
     max-width: 1800px;
     padding: 0 80px;
@@ -69,6 +73,7 @@
 }
 
 .navbar .menu li a{
+    display: block;
     color: var(--white);
     font-size: 1.1rem;
     font-weight: 500;
@@ -91,6 +96,33 @@
     font-size: 1.5rem;
     cursor: pointer;
     display: none;
+}
+
+/* estilos de la flecha de volver al inicio */
+
+.scroll-up-btn{
+    position: fixed;
+    height: 45px;
+    width: 42px;
+    background: var(--red);
+    right: 30px;
+    bottom: 10px;
+    text-align: center;
+    line-height: 45px;
+    color: var(--white);
+    z-index: 9999;
+    font-size: 1.8rem;
+    border-radius: 6px;
+    cursor: pointer;
+    opacity: 0;
+    pointer-events: none;
+    transition: all .5s ease;
+}
+
+.scroll-up-btn.show{
+    bottom: 30px;
+    opacity: 1;
+    pointer-events: auto;
 }
 
  /* estilos de Sección de inicio */
@@ -156,7 +188,7 @@ section{
 }
 
 .about, .services, 
-.skills, .teams, .contact{
+.skills, .teams, .contact, footer{
     font-family: var(--font-poppins);
 }
 
@@ -598,6 +630,30 @@ section .title::after{
     background: none;
 }
 
+        /* estilos al footer  */
+
+footer{
+    background: var(--grey-dark);
+    padding: 20px 23px;
+    color: var(--white);
+    text-align: center;
+}
+
+footer span svg{
+    padding-left: 10px;
+    font-size: 1.2rem;
+}
+
+footer span a{
+    color: var(--red);
+    text-decoration: none;
+    padding: 0 10px;
+}
+
+footer span a:hover{
+    text-decoration: underline;
+}
+
 
 
 
@@ -619,6 +675,10 @@ section .title::after{
     }
 
     @media (max-width:1104px){
+
+        .home{
+            background-position: right;
+        }
         .about .about-content .column{
             width: 50%;
          }
