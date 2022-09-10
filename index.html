@@ -12,6 +12,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
+    <script src="main.js"></script>
     <title>Portafolio de diseño y desarrollo web</title>
 </head>
 <body>
@@ -24,14 +25,8 @@
     <!-- menu de navegacion -->
     <nav class="navbar">
         <div class="max-width">
-            <div class="logo"><a href="#">Portafo<span>lio.</span></a></div>
+            <div class="logo"></div>
             <ul class="menu">
-                <li><a href="#home" class="menu-btn">Inicio</a></li>
-                <li><a href="#about" class="menu-btn">Sobre mi</a></li>
-                <li><a href="#services" class="menu-btn">Servicios</a></li>
-                <li><a href="#skills" class="menu-btn">Tecnologías</a></li>
-                <li><a href="#teams" class="menu-btn">Grupo</a></li>
-                <li><a href="#contact" class="menu-btn">Contacto</a></li>
             </ul>
             <div class="menu-btn close">
             </div>
@@ -43,10 +38,6 @@
     <section class="home" id="home">
         <div class="max-width">
             <div class="home-content">
-                <div class="text-1">¡Hola!, mi nombre es</div>
-                <div class="text-2">Jorge[Silva]</div>
-                <div class="text-3">Y soy un <span class="typing"></span></div>
-                <a href="#">trabaja conmigo</a>
             </div>
         </div>
     </section>
@@ -56,20 +47,7 @@
     
     <section class="about" id="about">
         <div class="max-width">
-            <h2 class="title">Sobre mi</h2>
-            <div class="about-content">
-                <div class="column left">
-                    <img src="./img/profile-1.jpeg" alt="">
-                </div>
-
-                <div class="column right">
-                    <div class="text">Soy Jorge, un <span class="typing-2"></span></div>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto ad inventore facilis similique deserunt dolorem natus perferendis unde. Quidem quae optio eligendi ad ut similique cumque deserunt consectetur consequatur, nobis doloremque repellat voluptatum repellendus placeat ab. Qui eaque cupiditate nemo suscipit fugit explicabo dolorem in, amet, et assumenda iusto dolor nulla cumque perferendis aspernatur officiis consequatur facilis ipsum mollitia possimus!</p>
-                    
-                    <a href="#">Descargar CV</a>
-                </div>
-                
-            </div>
+            <div class="about-content"></div>
         </div>
     </section>
 
@@ -77,7 +55,7 @@
     
     <section class="services" id="services">
         <div class="max-width">
-            <h2 class="title">Servicios</h2>
+            <h2 class="title" data-title2="te ofrezco">Servicios</h2>
             <div class="serv-content">
                 <div class="card">
                     <div class="box">
@@ -179,7 +157,7 @@
 
     <section class="teams" id="teams">
         <div class="max-width">
-            <h2 class="title">Grupo</h2>
+            <h2 class="title" data-title2="de trabajo">Grupo</h2>
             <div class="carousel owl-carousel">
                 <div class="card">
                    <div class="box">

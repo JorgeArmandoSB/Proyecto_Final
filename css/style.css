@@ -22,6 +22,14 @@ html{
     scroll-behavior: smooth;
 }
 
+[data-title]::after{
+    content: attr(data-title);
+}
+
+[data-title2]::after{
+    content: attr(data-title2);
+}
+
 .max-width{
     max-width: 1800px;
     padding: 0 80px;
@@ -239,9 +247,7 @@ section .title::after{
 
 
 
-.about .title::after{
-    content: "Quien soy.";
-}
+
 
 .about .about-content .left{
     width: 45%;
@@ -308,7 +314,6 @@ section .title::after{
 
 .services .title::after,
 .teams .title::after{
-    content: "te ofrezco.";
     background-color: var(--grey-dark);
 }
 

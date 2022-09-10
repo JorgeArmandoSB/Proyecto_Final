@@ -1,155 +1,143 @@
 {
-    "logo":[
-        {"portafolio":"#"}
+    "logo":
+        {"portaf-olio":"#"},
+
+    "menu":{
+        "Inicio":"#home",
+        "Sobre mi":"#about",
+        "Servicios":"#services",
+        "Tecnologias":"#skills",
+        "Grupo":"#teams",
+        "Contacto":"#contact"},
+
+
+    "seccion-inicio":{
+        "saludo":"¡Hola!, mi nombre es",
+        "presentacion":"Jorge [Silva]",
+        "soy un":["bbbb web", "Diseñador gráfico", "Motion graphics", "Freelancer"],
+        "trabaja conmigo":"#"
+    },
+
+
+    "Seccion-sobre-mi":{
+        "tituloSobreMi":"Sobre mi",
+        "subtituloSobreMi":"Quien soy",
+        "soy Jorge, un ":["aaaaa web", "Diseñador gráfico", "Motion graphics", "Freelancer"],
+        "parrafo":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto ad inventore facilis similique deserunt dolorem natus perferendis unde. Quidem quae optio eligendi ad ut similique cumque deserunt consectetur consequatur, nobis doloremque repellat voluptatum repellendus placeat ab. Qui eaque cupiditate nemo suscipit fugit explicabo dolorem in, amet, et assumenda iusto dolor nulla cumque perferendis aspernatur officiis consequatur facilis ipsum mollitia possimus! ",
+        "Descargar CV":"#"
+    },
+
+
+    "seccion-servicios":{
+        "tituloServicios":"servicios",
+        "subtituloServicios":"te ofrezco",
+        "card":[
+            {
+                
+                "tituloDiseño":"diseño web",
+                "parrafoDiseño":"Una breve descripción del servicio diseño web"
+            },
+
+            {
+                
+                "tituloPublicidad":"publicidad",
+                "parrafoPublicidad":"Una breve descripción del servicio publicidad"
+            },
+            {
+                
+                "tituloAplicativos":"aplicativos web",
+                "parrafoAplicativos":"Una breve descripción del servicio aplicativos web"
+            }
+        ]
+    },
+
+
+    "seccion-tecnologias":{
+        "tituloTecnologia":"software",
+        "subtituloTecnologias":"Tecnologias",
+        "tituloHerramientas":"herramientas que uso y conocimiento de ellas.",
+        "parrafoHerramientas":"Una breve descripción de las herramientas que uso",
+        "leer mas":"#"
+        ,
         
-    ],
+        "bars":{
+            "html":"80%",
+            "css":"60%",
+            "php":"30%",
+            "javascript":"20%",
+            "ilustrator":"90%",
+            "photoshop":"80%",
+            "after-effects":"40%"
+            
+        }
+    },
+
+
+    "seccion-grupo":{
+        "tituloGrupo":"grupo",
+        "subtituloGrupo":"de trabajo",
+        "card-team":[
+                {"textoName":"jorge silva",
+                "parrafoName":"descripción "
+                },
+                
+                {"textoName":"Someone name",
+                "parrafoName":"descripción "
+                },
+
+                {"textoName3":"Someone name",
+                "parrafoName3":"descripción "
+                }, 
+
+                {"textoName4":"Someone name",
+                "parrafoName4":"descripción "
+                },
+
+                {"textoName5":"Someone name",
+                "parrafoName5":"descripción"
+                }
+            ]  
+    },
+
+
+    "seccion-contacto":{
+        "tituloContacto":"información",
+        "subtituContacto":"de contacto",
+        "tituloUbicacion":"para más información escríbenos.",
+        "parrafoUbicacion":"descripción de ubicacion",
+        "info-contacto":{
+            "info-name":{
+                "ico-name":"user-group",
+                "name":"jorge a. silva"      
+            },
+            
+            "info-ubicacion":{
+                "ico-ubicacion":"location-dot",
+                "ubicacion":"Bucaramanga | Colombia"      
+            },
+            "info-mail":{
+                "ico-mail":"fa-envelope",
+                "correo":"jorgesilvacreativo@gmail.com"  
+            }    
+            },
+  
+        "form":{
+            "tituloForm":"contactame",
+            "input-text":"tu nombre",
+            "input-email":"tu correo",
+            "input-text-asunto":"asunto",
+            "input-texarea":"mensaje",
+            "button":"enviar mensaje"
+        },
     
 
-    "menu":[
-        {"inicio":"#home"},
-        {"sobre mi":"#about"},
-        {"servicios":"#services"},
-        {"tecnologias":"#skills"},
-        {"grupo":"#teams"},
-        {"contacto":"#contact"}
-    ],
-
-
-    "seccion-inicio":[
-        {"saludo":"¡Hola!, mi nombre es"},
-        {"presentacion":"Jorge Silva"},
-        {"soy un":"Desarrollador web, Diseñador gráfico, Motion graphics, Freelancer"},
-        {"boton-inicio":[
-            {"trabaja conmigo":"#"}
-        ]
+    "footer":{
+        "texto-footer":"desarrollado por",
+        "jorge silva":"#about",
+        "icono-footer":"pen-nib",
+        "cargo":"Diseñador grafico y desarrollador web"
     }
-    ],
+    }
 
-
-    "Seccion-sobre-mi":[
-        {"tituloSobreMi":"sobre mi"},
-        {"subtituloSobreMi":"quien soy"},
-        {"soy Jorge":"Desarrollador web, Diseñador gráfico, Motion graphics, Freelancer"},
-        {"parrafo":"Una breve descripción sobre mi "},
-        {"boton-cv":[
-            {"descargar cv":"#"}
-        ]}
-    ],
-
-
-    "seccion-servicios":[
-        {"tituloServicios":"servicios"},
-        {"subtituloServicios":"te ofrezco"},
-        {"card":[
-            {"servicio-diseño":[
-                {"iconoDiseño":"svg file-code"},
-                {"tituloDiseño":"diseño web"},
-                {"parrafoDiseño":"Una breve descripción del servicio diseño web"}
-            ]},
-            {"servicio-publicidad":[
-                {"iconoPublicidad":"svg bullhorn"},
-                {"tituloPublicidad":"publicidad"},
-                {"parrafoPublicidad":"Una breve descripción del servicio publicidad"}
-            ]},
-            {"servicios-aplicativos":[
-                {"iconoAplicativos":"svg laptop-code"},
-                {"tituloAplicativos":"aplicativos web"},
-                {"parrafoAplicativos":"Una breve descripción del servicio aplicativos web"}  
-            ]}
-        ]}
-    ],
-
-
-    "seccion-tecnologias":[
-        {"tituloTecnologia":"software"},
-        {"subtituloTecnologias":"Tecnologias"},
-        {"tituloHerramientas":"herramientas que uso y conocimiento de ellas."},
-        {"parrafoHerramientas":"Una breve descripción de las herramientas que uso"},
-        {"boton-herramientas":[
-            {"leer mas":"#"}
-        ]},
-        
-        {"bars":[
-            {"info":[
-                {"html":"80%"},
-                {"css":"60%"},
-                {"php":"30%"},
-                {"javascript":"20%"},
-                {"ilustrator":"90%"},
-                {"photoshop":"80%"},
-                {"after-effects":"40%"}
-            ]}
-        ]}
-    ],
-
-
-    "seccion-grupo":[
-        {"tituloGrupo":"grupo"},
-        {"subtituloGrupo":"de trabajo"},
-        {"card-team":[
-            {"box-1":[
-                {"textoName":"jorge silva"},
-                {"parrafoName":"descripción "}
-            ]},            
-            {"box-2":[
-                {"textoName":"Someone name"},
-                {"parrafoName":"descripción "}
-            ]},
-            {"box-3":[
-                {"textoName":"Someone name"},
-                {"parrafoName":"descripción "}
-            ]},
-            {"box-4":[
-                {"textoName":"Someone name"},
-                {"parrafoName":"descripción "}
-            ]},
-            {"box-5":[
-                {"textoName":"Someone name"},
-                {"parrafoName":"descripción"}
-            ]}
-
-        ]} 
-    ],
-
-
-    "seccion-contacto":[
-        {"tituloContacto":"información"},
-        {"subtituContacto":"de contacto"},
-        {"tituloUbicacion":"para más información escríbenos."},
-        {"parrafoUbicacion":"descripción de ubicacion"},
-        {"info-contacto":[
-            {"info-name":[
-                {"ico-name":"user-group"},
-                {"name":"jorge a. silva"}      
-            ]},
-            
-            {"info-ubicacion":[
-                {"ico-ubicacion":"location-dot"},
-                {"ubicacion":"Bucaramanga | Colombia"}      
-            ]},
-            {"info-mail":[
-                {"ico-mail":"fa-envelope"},
-                {"correo":"jorgesilvacreativo@gmail.com"}      
-            ]}
-            
-        ]},
-        {"form":[
-            {"tituloForm":"contactame"},
-            {"input-text":"tu nombre"},
-            {"input-email":"tu correo"},
-            {"input-text-asunto":"asunto"},
-            {"input-texarea":"mensaje"},
-            {"button":"enviar mensaje"}
-        ]}
-    ],
-
-    "footer":[
-        {"texto-footer":"desarrollado por"},
-        {"jorge silva":"#about"},
-        {"icono-footer":"pen-nib"},
-        {"cargo":"Diseñador grafico y desarrollador web"}
-    ]
-
-
-
-}
+    
+    }

@@ -25,23 +25,7 @@ $(document).ready(function () {
         $('.close').html(`<i class="${($(".navbar .menu").hasClass("active")) ? cerra : movil}"></i>`);
     });
 
-    // 
-    
-    var typed = new Typed(".typing-2", {
-        strings: ["Desarrollador web", "Diseñador gráfico" , "Motion graphics" , "Freelancer",],
-        typeSpeed: 100,
-        backSpeed: 60,
-        loop: true
-    });
-
-    var typed = new Typed(".typing", {
-        strings: ["Desarrollador web", "Diseñador gráfico" , "Motion graphics" , "Freelancer",],
-        typeSpeed: 100,
-        backSpeed: 60,
-        loop: true
-    });
-
-    // owl carousel script
+     
 
     $('.carousel').owlCarousel({
         margin: 20,
