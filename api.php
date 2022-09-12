@@ -13,5 +13,6 @@
         'icono' => Icono::get()->iconoMenu(),
         'inicio' => Inicio::get()->seccionInicio(),
         'sobre_mi' => SobreMi::get()->seccionSobreMi(),
+        'servicios' => Servicios::get()->disenoServicios(),
     }; 
 ?> 

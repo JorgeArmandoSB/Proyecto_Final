@@ -15,7 +15,20 @@ addEventListener("DOMContentLoaded", async(e)=>{
     let about = JSON.parse(await traerDatos("sobre_mi"));
     document.querySelector(".about-content").insertAdjacentHTML("beforebegin", about.titulo);
     document.querySelector(".about-content").insertAdjacentHTML("beforeend", about.secion);
+
+   
     
+    let services = JSON.parse(await traerDatos("servicios"));
+    document.querySelector(".serv-content").insertAdjacentHTML("beforebegin", services.service);
+    document.querySelector(".serv-content").insertAdjacentHTML("beforeend", services.card);
+    
+
+
+
+
+
+
+
     // typing text animation script
 
     console.log();

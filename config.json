@@ -14,7 +14,7 @@
     "seccion-inicio":{
         "saludo":"¡Hola!, mi nombre es",
         "presentacion":"Jorge [Silva]",
-        "soy un":["bbbb web", "Diseñador gráfico", "Motion graphics", "Freelancer"],
+        "soy un":["desarrollador web", "Diseñador gráfico", "Motion graphics", "Freelancer"],
         "trabaja conmigo":"#"
     },
 
@@ -22,7 +22,7 @@
     "Seccion-sobre-mi":{
         "tituloSobreMi":"Sobre mi",
         "subtituloSobreMi":"Quien soy",
-        "soy Jorge, un ":["aaaaa web", "Diseñador gráfico", "Motion graphics", "Freelancer"],
+        "soy Jorge, un ":["desarrollador web", "Diseñador gráfico", "Motion graphics", "Freelancer"],
         "parrafo":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto ad inventore facilis similique deserunt dolorem natus perferendis unde. Quidem quae optio eligendi ad ut similique cumque deserunt consectetur consequatur, nobis doloremque repellat voluptatum repellendus placeat ab. Qui eaque cupiditate nemo suscipit fugit explicabo dolorem in, amet, et assumenda iusto dolor nulla cumque perferendis aspernatur officiis consequatur facilis ipsum mollitia possimus! ",
         "Descargar CV":"#"
     },
@@ -31,24 +31,15 @@
     "seccion-servicios":{
         "tituloServicios":"servicios",
         "subtituloServicios":"te ofrezco",
-        "card":[
-            {
-                
-                "tituloDiseño":"diseño web",
-                "parrafoDiseño":"Una breve descripción del servicio diseño web"
-            },
-
-            {
-                
-                "tituloPublicidad":"publicidad",
-                "parrafoPublicidad":"Una breve descripción del servicio publicidad"
-            },
-            {
-                
-                "tituloAplicativos":"aplicativos web",
-                "parrafoAplicativos":"Una breve descripción del servicio aplicativos web"
-            }
-        ]
+        "card":"#" ,         
+        "tituloDiseno":"diseño web",
+        "parrafoDiseno":"Una breve descripción del servicio diseño web",         
+        "tituloPublicidad":"publicidad",
+        "parrafoPublicidad":"Una breve descripción del servicio publicidad",
+        "tituloDedWeb":"aplicativos web",
+        "parrafoDedWeb":"Una breve descripción del servicio aplicativos web"
+            
+        
     },
 
 
@@ -77,7 +68,9 @@
         "tituloGrupo":"grupo",
         "subtituloGrupo":"de trabajo",
         "card-team":[
-                {"textoName":"jorge silva",
+                
+                {
+                "textoName":"jorge silva",
                 "parrafoName":"descripción "
                 },
                 
@@ -85,16 +78,16 @@
                 "parrafoName":"descripción "
                 },
 
-                {"textoName3":"Someone name",
-                "parrafoName3":"descripción "
+                {"textoName":"Someone name",
+                "parrafoName":"descripción "
                 }, 
 
-                {"textoName4":"Someone name",
-                "parrafoName4":"descripción "
+                {"textoName":"Someone name",
+                "parrafoName":"descripción "
                 },
 
-                {"textoName5":"Someone name",
-                "parrafoName5":"descripción"
+                {"textoName":"Someone name",
+                "parrafoName":"descripción"
                 }
             ]  
     },
