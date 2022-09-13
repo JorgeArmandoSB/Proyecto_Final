@@ -14,5 +14,9 @@
         'inicio' => Inicio::get()->seccionInicio(),
         'sobre_mi' => SobreMi::get()->seccionSobreMi(),
         'servicios' => Servicios::get()->disenoServicios(),
+        'tecnologias' => Tecnologias::get()->disenoTecnologia(),
+        'footer' => Footer::get()->disenoFooter(),
+
+
     }; 
 ?> 

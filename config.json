@@ -21,7 +21,7 @@
 
     "Seccion-sobre-mi":{
         "tituloSobreMi":"Sobre mi",
-        "subtituloSobreMi":"Quien soy",
+        "subtituloSobreMi":"Quien soy.",
         "soy Jorge, un ":["desarrollador web", "Diseñador gráfico", "Motion graphics", "Freelancer"],
         "parrafo":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto ad inventore facilis similique deserunt dolorem natus perferendis unde. Quidem quae optio eligendi ad ut similique cumque deserunt consectetur consequatur, nobis doloremque repellat voluptatum repellendus placeat ab. Qui eaque cupiditate nemo suscipit fugit explicabo dolorem in, amet, et assumenda iusto dolor nulla cumque perferendis aspernatur officiis consequatur facilis ipsum mollitia possimus! ",
         "Descargar CV":"#"
@@ -30,35 +30,32 @@
 
     "seccion-servicios":{
         "tituloServicios":"servicios",
-        "subtituloServicios":"te ofrezco",
-        "card":"#" ,         
+        "subtituloServicios":"te ofrezco.",
+               
         "tituloDiseno":"diseño web",
         "parrafoDiseno":"Una breve descripción del servicio diseño web",         
         "tituloPublicidad":"publicidad",
         "parrafoPublicidad":"Una breve descripción del servicio publicidad",
         "tituloDedWeb":"aplicativos web",
-        "parrafoDedWeb":"Una breve descripción del servicio aplicativos web"
-            
-        
+        "parrafoDedWeb":"Una breve descripción del servicio aplicativos web"      
     },
 
 
     "seccion-tecnologias":{
         "tituloTecnologia":"software",
-        "subtituloTecnologias":"Tecnologias",
+        "subtituloTecnologias":"Tecnologias.",
         "tituloHerramientas":"herramientas que uso y conocimiento de ellas.",
-        "parrafoHerramientas":"Una breve descripción de las herramientas que uso",
-        "leer mas":"#"
-        ,
+        "parrafoHerramientas":"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio molestiae numquam vero. Dolore rem nostrum libero voluptate soluta excepturi corporis. Beatae iure pariatur porro eius sequi quod cupiditate nulla numquam atque quas doloribus recusandae voluptatum animi enim, perferendis quibusdam ad laboriosam qui incidunt dolor. Qui repellendus, perspiciatis quos ipsa nostrum voluptate explicabo minus sequi deleniti facilis. Similique reprehenderit fugit asperiores.",
+        "leer mas...":"#",
         
-        "bars":{
-            "html":"80%",
-            "css":"60%",
-            "php":"30%",
-            "javascript":"20%",
-            "ilustrator":"90%",
-            "photoshop":"80%",
-            "after-effects":"40%"
+        "skills":{
+            "HTML":"80%",
+            "CSS":"60%",
+            "PHP":"30%",
+            "JavaScript":"20%",
+            "Ilustrator":"90%",
+            "Photoshop":"80%",
+            "After-Effects":"40%"
             
         }
     },
@@ -95,42 +92,33 @@
 
     "seccion-contacto":{
         "tituloContacto":"información",
-        "subtituContacto":"de contacto",
+        "subtituContacto":"De contacto.",
         "tituloUbicacion":"para más información escríbenos.",
         "parrafoUbicacion":"descripción de ubicacion",
-        "info-contacto":{
-            "info-name":{
-                "ico-name":"user-group",
-                "name":"jorge a. silva"      
-            },
-            
-            "info-ubicacion":{
-                "ico-ubicacion":"location-dot",
-                "ubicacion":"Bucaramanga | Colombia"      
-            },
-            "info-mail":{
-                "ico-mail":"fa-envelope",
-                "correo":"jorgesilvacreativo@gmail.com"  
-            }    
+        "info-contacto":"#",
+        "name":"jorge a. silva",                 
+        "ubicacion":"Bucaramanga | Colombia",      
+     "correo":"jorgesilvacreativo@gmail.com"
+                
             },
   
-        "form":{
-            "tituloForm":"contactame",
-            "input-text":"tu nombre",
-            "input-email":"tu correo",
-            "input-text-asunto":"asunto",
-            "input-texarea":"mensaje",
-            "button":"enviar mensaje"
+    "form":{
+        "tituloForm":"contactame",
+        "input-text":"tu nombre",
+        "input-email":"tu correo",
+        "input-text-asunto":"asunto",
+        "input-texarea":"mensaje",
+        "button":"enviar mensaje"
         },
     
+    
 
-    "footer":{
-        "texto-footer":"desarrollado por",
+    "seccion-footer":{
+        "texto-footer":"Desarrollado por",
         "jorge silva":"#about",
-        "icono-footer":"pen-nib",
-        "cargo":"Diseñador grafico y desarrollador web"
+        "cargo":"Diseñador gráfico y desarrollador web"
     }
-    }
+    
 
     
     }

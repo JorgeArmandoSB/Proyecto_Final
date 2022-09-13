@@ -8,7 +8,7 @@
         public function disenoServicios(){
 
             $data = json_decode(json_encode($this->peticion), true)["seccion-servicios"];
-            // $key = array_keys($data);
+            
             $plantilla = (object) [];
             $plantilla->service =<<<HTML
                 <h2 class="title" data-title2="{$data['subtituloServicios']}">{$data['tituloServicios']}</h2>

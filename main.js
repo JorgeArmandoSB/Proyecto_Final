@@ -12,6 +12,8 @@ addEventListener("DOMContentLoaded", async(e)=>{
     document.querySelector(".logo").insertAdjacentHTML("beforeend", await traerDatos("icono"));
     document.querySelector(".menu").insertAdjacentHTML("beforeend", await traerDatos("menu"));
     document.querySelector(".home-content").insertAdjacentHTML("beforeend", await traerDatos("inicio"));
+
+
     let about = JSON.parse(await traerDatos("sobre_mi"));
     document.querySelector(".about-content").insertAdjacentHTML("beforebegin", about.titulo);
     document.querySelector(".about-content").insertAdjacentHTML("beforeend", about.secion);
@@ -21,7 +23,12 @@ addEventListener("DOMContentLoaded", async(e)=>{
     let services = JSON.parse(await traerDatos("servicios"));
     document.querySelector(".serv-content").insertAdjacentHTML("beforebegin", services.service);
     document.querySelector(".serv-content").insertAdjacentHTML("beforeend", services.card);
-    
+
+    let tecnologias = JSON.parse(await traerDatos("tecnologias"));
+    document.querySelector(".skills-content").insertAdjacentHTML("beforebegin", tecnologias.sof);
+    document.querySelector(".skills-content").insertAdjacentHTML("afterbegin", tecnologias.herramientas);
+    document.querySelector(".skills-content").insertAdjacentHTML("beforeend", tecnologias.barras);
+    document.querySelector("footer").insertAdjacentHTML("beforeend", await traerDatos("footer"));
 
 
 

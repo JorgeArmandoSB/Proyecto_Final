@@ -359,10 +359,7 @@ section .title::after{
 
     /* estilos de seccion tecnologias */
 
-.skills .title::after{
-    content: "Tecnologías.";
 
-}
 
 .skills .skills-content .column{
     width: calc(50% - 30px);
@@ -451,9 +448,7 @@ section .title::after{
 
     /* estilos de la seccion teams */
 
-.teams .title::after{
-    content: "De trabajo.";
-}
+
 
 .teams .carousel .card{
     background-color: var(--grey-light);
@@ -527,9 +522,7 @@ section .title::after{
 
 /* estilos del contacto  */
 
-.contact .title::after{
-    content: "De contacto.";
-}
+
 
 .contact .contact-content .column{
     width: calc(50% - 30px);
