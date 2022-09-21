@@ -6,8 +6,8 @@
                 : (array) ["file" => "404"];
     extract($_DATA);
     unset($_DATA);
-    include "modulos/conexion.php";
-    include "modulos/$file.php";
+    include "Proyecto_Final/modulos/conexion.php";
+    include "Proyecto_Final/modulos/$file.php";
     echo match ($file) {
         'menu' => Menu::get()->disenoMenu(), 
         'icono' => Icono::get()->iconoMenu(),
@@ -15,6 +15,7 @@
         'sobre_mi' => SobreMi::get()->seccionSobreMi(),
         'servicios' => Servicios::get()->disenoServicios(),
         'tecnologias' => Tecnologias::get()->disenoTecnologia(),
+        'team' => Team::get()->disenoTeam(),
         'footer' => Footer::get()->disenoFooter(),
 
 

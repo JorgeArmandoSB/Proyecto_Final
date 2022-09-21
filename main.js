@@ -3,7 +3,7 @@ let traerDatos = async(file)=>{
         method: "POST", 
         body: JSON.stringify({file: file})
     }
-    let petecion = await fetch("api.php", config);
+    let petecion = await fetch("https://jorgearmandosb.000webhostapp.com/Proyecto_Final/api.php", config);
     let datos = await petecion.text();
     return datos;
 }
@@ -26,8 +26,14 @@ addEventListener("DOMContentLoaded", async(e)=>{
 
     let tecnologias = JSON.parse(await traerDatos("tecnologias"));
     document.querySelector(".skills-content").insertAdjacentHTML("beforebegin", tecnologias.sof);
-    document.querySelector(".skills-content").insertAdjacentHTML("afterbegin", tecnologias.herramientas);
-    document.querySelector(".skills-content").insertAdjacentHTML("beforeend", tecnologias.barras);
+    document.querySelector(".skills-content").insertAdjacentHTML("beforeend", tecnologias.herramientas);
+
+    let team = JSON.parse(await traerDatos("team"));
+    document.querySelector(".carousel").insertAdjacentHTML("beforebegin", team.grupo);
+    // document.querySelector(".carousel").insertAdjacentHTML("beforeend", team.target);
+   
+
+
     document.querySelector("footer").insertAdjacentHTML("beforeend", await traerDatos("footer"));
 
 

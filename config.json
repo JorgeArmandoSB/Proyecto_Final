@@ -29,8 +29,8 @@
 
 
     "seccion-servicios":{
-        "tituloServicios":"servicios",
-        "subtituloServicios":"te ofrezco.",
+        "tituloServicios":"Servicios",
+        "subtituloServicios":"Te ofrezco.",
                
         "tituloDiseno":"diseño web",
         "parrafoDiseno":"Una breve descripción del servicio diseño web",         
@@ -42,28 +42,32 @@
 
 
     "seccion-tecnologias":{
-        "tituloTecnologia":"software",
+        "tituloTecnologia":"Software",
         "subtituloTecnologias":"Tecnologias.",
         "tituloHerramientas":"herramientas que uso y conocimiento de ellas.",
         "parrafoHerramientas":"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio molestiae numquam vero. Dolore rem nostrum libero voluptate soluta excepturi corporis. Beatae iure pariatur porro eius sequi quod cupiditate nulla numquam atque quas doloribus recusandae voluptatum animi enim, perferendis quibusdam ad laboriosam qui incidunt dolor. Qui repellendus, perspiciatis quos ipsa nostrum voluptate explicabo minus sequi deleniti facilis. Similique reprehenderit fugit asperiores.",
-        "leer mas...":"#",
-        
-        "skills":{
-            "HTML":"80%",
-            "CSS":"60%",
-            "PHP":"30%",
-            "JavaScript":"20%",
-            "Ilustrator":"90%",
-            "Photoshop":"80%",
-            "After-Effects":"40%"
-            
-        }
+        "leer mas...":"#",      
+        "HTML":"HTML",
+        "htmlpor":"80%",
+        "CSS":"CSS",
+        "csspor":"60%",
+        "PHP":"PHP",
+        "phppor":"30%",
+        "JavaScript":"JavaScript",
+        "JavaScriptpor":"20%",
+        "Illustrator":"Illustrator",
+        "Illustratorpor":"90%",
+        "Photoshop":"Photoshop",
+        "Photoshoppor":"80%",
+        "AfterEffects":"AfterEffects",        
+        "AfterEffectspor":"40%"        
+       
     },
 
 
     "seccion-grupo":{
-        "tituloGrupo":"grupo",
-        "subtituloGrupo":"de trabajo",
+        "tituloGrupo":"Grupo",
+        "subtituloGrupo":"De trabajo.",
         "card-team":[
                 
                 {
